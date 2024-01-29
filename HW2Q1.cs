@@ -8,7 +8,7 @@ class Program
         string letter_grade = Console.ReadLine();
         int point_int;
 
-        if(letter_grade === "A" ){
+        if(letter_grade == "A" ){
             point_int = 4;
         }
         else if (letter_grade == "B"){
